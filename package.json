@@ -22,5 +22,11 @@
   "homepage": "https://github.com/YukiGuo/kakaUI#readme",
   "dependencies": {
     "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
   }
 }
