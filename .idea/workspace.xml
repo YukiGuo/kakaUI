@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitingore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +50,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588339320760</updated>
-      <workItem from="1588339324877" duration="508000" />
+      <workItem from="1588339324877" duration="1430000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588340731781">
+      <screen x="0" y="0" width="1217" height="720" />
+    </state>
+    <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1217.720@0.0.1217.720" timestamp="1588340731781" />
   </component>
 </project>

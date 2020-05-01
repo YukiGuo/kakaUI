@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/YukiGuo/kakaUI/issues"
   },
-  "homepage": "https://github.com/YukiGuo/kakaUI#readme"
+  "homepage": "https://github.com/YukiGuo/kakaUI#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
