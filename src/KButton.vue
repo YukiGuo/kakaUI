@@ -1,21 +1,29 @@
 <template>
     <button class="k-button"
-            :class="{[`icon-${iconPosition}`] : true}">
-        <div class="icon">
-            <Icon v-if="iconName" :icon-name="iconName"/>
+            :class="{[`icon-${iconPosition}`] : true}"
+            @click="$emit('click')"
+    >
+        <div  class="icon">
+            <Icon v-if ="iconName && !loading" :icon-name="iconName"/>
+        </div>
+        <div v-if="loading" class="icon">
+            <Icon icon-name="loading" class="loading icon" />
         </div>
         <div class="content" >
             <slot class="content"/>
         </div>
 
     </button>
-
 </template>
-<script lang='ts'>
+<script lang='js'>
     export default {
         name: 'Button',
         props:{
             iconName:{},
+            loading:{
+                type: Boolean,
+                default:false
+            },
             iconPosition:{
                 type:String,
                 default:"left",
@@ -27,7 +35,6 @@
     };
 </script>
 <style lang="scss">
-
     .k-button{
         font-size: var(--font-size);
         height:var(--button-height);
@@ -66,5 +73,11 @@
             }
         }
     }
-
+    @keyframes spin {
+        0%{transform: rotate(0deg)}
+        100%{transform: rotate(360deg)}
+    }
+    .loading{
+        animation: spin 2s infinite linear;
+    }
 </style>

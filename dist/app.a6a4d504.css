@@ -34,10 +34,44 @@
 .k-button.icon-right > .content {
   order: 1;
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  animation: spin 2s infinite linear;
+}
 .icon[data-v-6e42ba] {
   width: 1em;
   height: 1em;
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
+}
+.buttonGroup[data-v-c40678] {
+  display: inline-flex;
+  vertical-align: middle;
+}
+.buttonGroup > .k-button[data-v-c40678] {
+  border-radius: 0;
+}
+.buttonGroup > .k-button[data-v-c40678]:not(:first-child) {
+  margin-left: -1px;
+}
+.buttonGroup > .k-button[data-v-c40678]:first-child {
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+.buttonGroup > .k-button[data-v-c40678]:last-child {
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+.buttonGroup > .k-button[data-v-c40678]:hover {
+  position: relative;
+  z-index: 1;
 }

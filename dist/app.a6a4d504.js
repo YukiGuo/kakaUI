@@ -12427,16 +12427,21 @@ function patchScopedSlots (instance) {
   }
 }
 
-},{}],"src/Button.vue":[function(require,module,exports) {
+},{}],"src/KButton.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = {
+exports.default = void 0;
+var _default = {
   name: 'Button',
   props: {
     iconName: {},
+    loading: {
+      type: Boolean,
+      default: false
+    },
     iconPosition: {
       type: String,
       default: "left",
@@ -12446,14 +12451,15 @@ exports.default = {
     }
   }
 };
-        var $f0f6c3 = exports.default || module.exports;
+exports.default = _default;
+        var $11ae25 = exports.default || module.exports;
       
-      if (typeof $f0f6c3 === 'function') {
-        $f0f6c3 = $f0f6c3.options;
+      if (typeof $11ae25 === 'function') {
+        $11ae25 = $11ae25.options;
       }
     
         /* template */
-        Object.assign($f0f6c3, (function () {
+        Object.assign($11ae25, (function () {
           var render = function() {
   var _obj
   var _vm = this
@@ -12463,19 +12469,38 @@ exports.default = {
     "button",
     {
       staticClass: "k-button",
-      class: ((_obj = {}), (_obj["icon-" + _vm.iconPosition] = true), _obj)
+      class: ((_obj = {}), (_obj["icon-" + _vm.iconPosition] = true), _obj),
+      on: {
+        click: function($event) {
+          return _vm.$emit("click")
+        }
+      }
     },
     [
       _c(
         "div",
         { staticClass: "icon" },
         [
-          _vm.iconName
+          _vm.iconName && !_vm.loading
             ? _c("Icon", { attrs: { "icon-name": _vm.iconName } })
             : _vm._e()
         ],
         1
       ),
+      _vm._v(" "),
+      _vm.loading
+        ? _c(
+            "div",
+            { staticClass: "icon" },
+            [
+              _c("Icon", {
+                staticClass: "loading icon",
+                attrs: { "icon-name": "loading" }
+              })
+            ],
+            1
+          )
+        : _vm._e(),
       _vm._v(" "),
       _c("div", { staticClass: "content" }, [_vm._t("default")], 2)
     ]
@@ -12501,9 +12526,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$f0f6c3', $f0f6c3);
+            api.createRecord('$11ae25', $11ae25);
           } else {
-            api.reload('$f0f6c3', $f0f6c3);
+            api.reload('$11ae25', $11ae25);
           }
         }
 
@@ -12575,26 +12600,118 @@ render._withStripped = true
       
       }
     })();
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.common.js"}],"src/KButtonGroup.vue":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+function _createForOfIteratorHelper(o) { if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) { var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var it, normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+var _default = {
+  name: 'KButtonGroup',
+  mounted: function mounted() {
+    var _iterator = _createForOfIteratorHelper(this.$el.children),
+        _step;
+
+    try {
+      for (_iterator.s(); !(_step = _iterator.n()).done;) {
+        var node = _step.value;
+        var name = node.nodeName.toLowerCase();
+
+        if (name !== 'button') {
+          console.warn('k-button-group的子元素应该是button');
+        }
+      }
+    } catch (err) {
+      _iterator.e(err);
+    } finally {
+      _iterator.f();
+    }
+  }
+};
+exports.default = _default;
+        var $c40678 = exports.default || module.exports;
+      
+      if (typeof $c40678 === 'function') {
+        $c40678 = $c40678.options;
+      }
+    
+        /* template */
+        Object.assign($c40678, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "buttonGroup" }, [_vm._t("default")], 2)
+}
+var staticRenderFns = []
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: "data-v-c40678",
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$c40678', $c40678);
+          } else {
+            api.reload('$c40678', $c40678);
+          }
+        }
+
+        
+        var reloadCSS = require('_css_loader');
+        module.hot.dispose(reloadCSS);
+        module.hot.accept(reloadCSS);
+      
+      }
+    })();
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.common.js"}],"src/app.js":[function(require,module,exports) {
 "use strict";
 
 var _vue = _interopRequireDefault(require("vue"));
 
-var _Button = _interopRequireDefault(require("./Button"));
+var _KButton = _interopRequireDefault(require("./KButton"));
 
 var _Icon = _interopRequireDefault(require("./Icon"));
 
+var _KButtonGroup = _interopRequireDefault(require("./KButtonGroup"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_vue.default.component('Button', _Button.default);
+_vue.default.component('k-button', _KButton.default);
 
 _vue.default.component('Icon', _Icon.default);
 
+_vue.default.component('k-button-group', _KButtonGroup.default);
+
 new _vue.default({
   el: '#app',
-  template: "\n        <div>\n            <Button >\u6309\u94AE1</Button>\n            <Button  icon-name=\"setting\">\u6309\u94AE</Button>\n             <Button  icon-name=\"setting\" icon-position=\"right\">\u6309\u94AE</Button>\n        </div>\n      "
+  template: "\n        <div>\n            <k-button :loading=\"loading1\" @click=\"loading1=!loading1\">\u6309\u94AE1</k-button>\n            <k-button  icon-name=\"setting\">\u6309\u94AE</k-button>\n             <k-button  :loading=\"loading2\" @click=\"loading2=!loading2\"  icon-name=\"setting\" icon-position=\"right\">\u6309\u94AE</k-button>\n        <k-button-group>\n            <k-button icon-name=\"left\">\u5411\u5DE6</k-button>\n            <k-button >\u5176\u5B83</k-button>\n            <k-button icon-name=\"right\">\u5411\u53F3</k-button>\n        </k-button-group>\n        \n        </div>\n      ",
+  data: {
+    loading1: false,
+    loading2: false
+  }
 });
-},{"vue":"node_modules/vue/dist/vue.common.js","./Button":"src/Button.vue","./Icon":"src/Icon.vue"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"vue":"node_modules/vue/dist/vue.common.js","./KButton":"src/KButton.vue","./Icon":"src/Icon.vue","./KButtonGroup":"src/KButtonGroup.vue"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
