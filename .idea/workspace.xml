@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -36,9 +40,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Guo\kakaui\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Guo\kakaui" />
     </key>
@@ -65,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588339320760</updated>
-      <workItem from="1588339324877" duration="5600000" />
+      <workItem from="1588339324877" duration="7489000" />
+      <workItem from="1588381913969" duration="338000" />
     </task>
     <servers />
   </component>
@@ -81,5 +90,9 @@
       <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state x="110" y="3" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1588341052730" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1588347119152">
+      <screen x="0" y="0" width="1217" height="720" />
+    </state>
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1588347119152" />
   </component>
 </project>
