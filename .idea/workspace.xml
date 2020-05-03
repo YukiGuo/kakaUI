@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KButtonGroup.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/21/7df86e1f8a9d73a79fd0e6387ee3b4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/21/7df86e1f8a9d73a79fd0e6387ee3b4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/bc/bfc44d0f5496659c44b2a240766b00.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/bc/bfc44d0f5496659c44b2a240766b00.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/13/528d74b1129d2ab9248e9d16a6d134.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/21/7df86e1f8a9d73a79fd0e6387ee3b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/2a/52a6452879a377ffdf2f35b4e7a672.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/5c/e7bcfc1df52afbaac3785e349a6dd0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/5d/12f425c582fd58b6ca4dadd0bb11b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/9d/3bd1f780696b527eb77ba41369b487.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/bc/bfc44d0f5496659c44b2a240766b00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/d3/5e32775a10f5e860512eb2df1260f4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/de/7c2e05cff9c1cf821bb2776e6ee85c.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.a6a4d504.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.a6a4d504.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.a6a4d504.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.a6a4d504.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.a6a4d504.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.a6a4d504.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/KButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.a6a4d504.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.a6a4d504.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.a6a4d504.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -32,7 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bJ9RSwp7Xkuby9YXDOc4BmyJrF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,14 +58,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Guo\kakaui\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Guo\kakaui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Guo\kakaui" />
+      <recent name="D:\Guo\kakaui\src" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -80,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588339320760</updated>
       <workItem from="1588339324877" duration="7489000" />
-      <workItem from="1588381913969" duration="10477000" />
+      <workItem from="1588381913969" duration="18081000" />
     </task>
     <servers />
   </component>
@@ -92,13 +104,13 @@
       <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1217.720@0.0.1217.720" timestamp="1588340731781" />
-    <state x="110" y="3" key="SettingsEditor" timestamp="1588341052730">
+    <state x="110" y="3" key="SettingsEditor" timestamp="1588422143324">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="110" y="3" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1588341052730" />
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1588413188646">
+    <state x="110" y="3" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1588422143324" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1588425875184">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1588413188646" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1588425875184" />
   </component>
 </project>
