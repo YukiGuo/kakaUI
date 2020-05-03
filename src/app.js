@@ -2,9 +2,11 @@ import Vue from 'vue';
 import KButton from './button/KButton';
 import Icon from "./Icon";
 import KButtonGroup from "./button/KButtonGroup";
+import KInput from "./button/input/KInput"
 Vue.component('Icon', Icon);
 Vue.component('k-button-group', KButtonGroup);
 Vue.component('k-button', KButton);
+Vue.component('k-input', KInput);
 new Vue({
     el: '#app',
     template: `
@@ -18,7 +20,9 @@ new Vue({
                 <k-button>其它</k-button>
                 <k-button icon-name="right">向右</k-button>
             </k-button-group>
-
+            <k-input value="hello"/> 
+            <k-input value="hello" disabled /> 
+            <k-input value="中文" readonly/>
         </div>
     `,
     data: {
