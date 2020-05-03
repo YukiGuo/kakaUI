@@ -1,11 +1,10 @@
 import Vue from 'vue';
-import KButton from './KButton';
+import KButton from './button/KButton';
 import Icon from "./Icon";
-import KButtonGroup from "./KButtonGroup";
-
+import KButtonGroup from "./button/KButtonGroup";
 Vue.component('Icon', Icon);
 Vue.component('k-button-group', KButtonGroup);
-
+Vue.component('k-button', KButton);
 new Vue({
     el: '#app',
     template: `
