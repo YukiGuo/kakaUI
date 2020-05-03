@@ -12,15 +12,17 @@
             </k-button-group>
         </div>
         <div class="box">
-            <k-input value="hello"></k-input>
-            <k-input value="123" disabled ></k-input>
-            <k-input value="123" readonly ></k-input>
+            <k-input value="hello"> </k-input>
+            <k-input value="123" disabled > </k-input>
+            <k-input value="123" readonly > </k-input>
         </div>
         <div class="box">
-            <k-input value="小哈哈哈" error="名字填写错误"/>
+            <k-input value="小哈哈哈" error="名字填写错误"> </k-input>
+            <k-input :value="value" value="成功输入" success/>
         </div>
         <div class="box">
-            <k-input :value="value" value="133333" success/>
+            <k-input v-model="message"> </k-input>
+            <span>message: {{message}}</span>
         </div>
     </div>
 </template>
@@ -32,6 +34,12 @@
                 loading1: false,
                 loading2: false,
                 value: '',
+                message:'这是一个双向绑定'
+            }
+        },
+        methods:{
+            a(e){
+                console.log(e)
             }
         }
     }

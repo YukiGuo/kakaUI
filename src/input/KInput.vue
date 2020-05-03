@@ -2,7 +2,10 @@
 <div class="wrapper">
     <input type="text"
            :value="value" class="k-input"
-           @input="$emit('valueChange',value)"
+           @change="$emit('change',$event)"
+           @focus="$emit('focus',$event)"
+           @blur="$emit('blur',$event)"
+           @input="$emit('input',$event.target.value)"
            :disabled="disabled"
            :readonly="readonly"
     />
@@ -45,6 +48,7 @@
 <style lang='scss' scoped>
 .wrapper{
         display: inline-block;
+    font-size: 12px;
         .k-input {
                 vertical-align: middle;
                 width: 130px;
@@ -62,12 +66,14 @@
         }
     .icon-error{
         fill:#EE2C2C;
+        font-size:14px;
     }
     .error-massage{
         color:#EE2C2C;
         font-size:12px;
     }
     .icon-success{
+        font-size:14px;
       fill:#2E8B57;
     }
 }
