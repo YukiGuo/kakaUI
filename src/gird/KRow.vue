@@ -13,12 +13,19 @@
         props:{
             gutter:{
                 type:[String,Number]
+            },
+            wrap:{
+                type:Boolean,
+                default:false,
             }
         },
         computed:{
             rowStyle(){
+                const{gutter,wrap}=this
                 return{
-                    marginLeft:-this.gutter/2+'px',marginRight:-this.gutter/2+'px'
+                    marginLeft:-gutter/2+'px',
+                    marginRight:-gutter/2+'px',
+                    flexWrap: wrap ? "wrap":"nowrap"
                 }
             }
         },

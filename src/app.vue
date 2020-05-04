@@ -29,9 +29,9 @@
         <h3>网格</h3>
         <div class="box" style=" background: lightblue;">
             <h4>第一种</h4>
-            <k-row>
-                <k-col span="2">1 </k-col>
-                <k-col span="22"> 2</k-col>
+            <k-row wrap>
+                <k-col span="2"  :phone="{span:24}" >1 </k-col>
+                <k-col span="22"  :phone="{span:24}" > 2</k-col>
             </k-row>
             <k-row>
                 <k-col span="4">1 </k-col>
@@ -58,11 +58,11 @@
             </k-row>
             <h4>第三种</h4>
             <k-row gutter="40">
-                <k-col span="12" > 2</k-col>
+                <k-col span="12"> 2</k-col>
                 <k-col span=12 > 3</k-col>
             </k-row>
             <k-row gutter="20">
-                <k-col span="6" > 2</k-col>
+                <k-col span="6" >1</k-col>
                 <k-col span=6> 3</k-col>
                 <k-col span=12 > 3</k-col>
             </k-row>

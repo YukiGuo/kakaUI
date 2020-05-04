@@ -20,6 +20,9 @@
            offset:{
                type:[String,Number]
            },
+            phone:{
+                type: Object
+            }
         },
         data(){
             return{
@@ -28,7 +31,13 @@
         },
         computed:{
             colClass(){
-                return [`col-${this.span}`,this.offset&&`offset-${this.offset}`,this.gutter&&`gutter-${this.gutter}`]
+                const{span,offset,gutter,phone}=this
+                return [
+                    `col-${span}`,
+                    offset&&`offset-${offset}`,
+                    gutter&&`gutter-${gutter}`,
+                    phone&&`col-phone-${phone.span}`
+                ]
             },
             colStyle(){
                 return{
@@ -62,5 +71,14 @@
             margin-right:  ($n/24)*100%
         }
     }
+    @media(max-width: 576px){
+        @for $n from 1 through 24 {
+            &.col-phone-#{$n} {
+                width:  ($n/24)*100%;
+
+            }
+        }
+    }
+
 }
 </style>
