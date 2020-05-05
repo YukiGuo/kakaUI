@@ -67,8 +67,8 @@
                 <k-col span=12 > 3</k-col>
             </k-row>
           <h3>响应式</h3>
-            <k-row style="background:#666666" wrap>
-                <k-col span="24" :m="{span:8}" :l="{span:'6'}">1 </k-col>
+            <k-row style="background:#666666" >
+                <k-col span="24" :m="{span:8}" :l="{span:'6'}">1</k-col>
                 <k-col span="24" :m="{span:8}" :l="{span:'6'}">2</k-col>
                 <k-col span="24" :m="{span:8}" :l="{span:'6'}">3</k-col>
                 <k-col span="24" :m="{span:8}" :l="{span:'6'}">4</k-col>

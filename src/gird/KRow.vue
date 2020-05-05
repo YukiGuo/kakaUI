@@ -16,7 +16,7 @@
             },
             wrap:{
                 type:Boolean,
-                default:false,
+                default:true,
             }
         },
         computed:{

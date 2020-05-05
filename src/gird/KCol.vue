@@ -32,7 +32,7 @@
            },
             m:{
               type:Object,
-                validator
+              //  validator
             },
             l:{
                 type: Object,
@@ -48,16 +48,29 @@
                 gutter:'',
             }
         },
+        methods:{
+              createClass(obj,str=''){
+                  const{span,offset,gutter,m,l,xl}=this
+                  if (!obj){return []}
+                  let arr=[]
+                  if(obj.span){
+                      arr.push(`col-${str}${obj.span}`)
+                  }
+                  if(obj.offset){
+                      arr.push(`offset-${str}${obj.offset}`)
+                  }
+                  return arr
+              }
+
+        },
         computed:{
             colClass(){
-                const{span,offset,gutter,m,l,xl}=this
+                const{span,offset,gutter,m,l,xl,createClass}=this
                 return [
-                    `col-${span}`,
-                    offset&&`offset-${offset}`,
-                    gutter&&`gutter-${gutter}`,
-                    m?`col-m-${m.span}`:[],
-                    l?`col-l-${l.span}`:[],
-                    xl?`col-xl-${xl.span}`:[],
+                   ...createClass({span,offset}),
+                   ...createClass(m,'m-'),
+                  ...createClass(l,'l-'),
+                  ...createClass(xl,'xl-'),
                 ]
             },
             colStyle(){

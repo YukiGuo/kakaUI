@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gird/KCol.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/gird/KCol.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gird/KRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/gird/KRow.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <workItem from="1588339324877" duration="7489000" />
       <workItem from="1588381913969" duration="36105000" />
       <workItem from="1588569051882" duration="3337000" />
-      <workItem from="1588655618996" duration="3871000" />
+      <workItem from="1588655618996" duration="5487000" />
     </task>
     <task id="LOCAL-00001" summary="新建button组件文件夹">
       <created>1588472058166</created>
