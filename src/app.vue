@@ -30,13 +30,13 @@
         <div class="box" style=" background: lightblue;">
             <h4>第一种</h4>
             <k-row wrap>
-                <k-col span="2"  :phone="{span:24}" >1 </k-col>
-                <k-col span="22"  :phone="{span:24}" > 2</k-col>
+                <k-col span="12"  >1 </k-col>
+                <k-col span="12"   > 2</k-col>
             </k-row>
-            <k-row>
-                <k-col span="4">1 </k-col>
-                <k-col span="6"> 2</k-col>
-                <k-col :span=14> 3</k-col>
+            <k-row wrap>
+                <k-col span="12" >1 </k-col>
+                <k-col span="12" >2 </k-col>
+                <k-col :span=24 > 3</k-col>
             </k-row>
             <k-row>
                 <k-col span="1">1 </k-col>
@@ -65,6 +65,17 @@
                 <k-col span="6" >1</k-col>
                 <k-col span=6> 3</k-col>
                 <k-col span=12 > 3</k-col>
+            </k-row>
+          <h3>响应式</h3>
+            <k-row style="background:#666666" wrap>
+                <k-col span="24" :m="{span:8}" :l="{span:'6'}">1 </k-col>
+                <k-col span="24" :m="{span:8}" :l="{span:'6'}">2</k-col>
+                <k-col span="24" :m="{span:8}" :l="{span:'6'}">3</k-col>
+                <k-col span="24" :m="{span:8}" :l="{span:'6'}">4</k-col>
+                <k-col span="24" :m="{span:8}" :l="{span:'6'}">5</k-col>
+                <k-col span="24" :m="{span:8}" :l="{span:'6'}">6</k-col>
+                <k-col span="24" :m="{span:12}" :l="{span:'6'}">7</k-col>
+                <k-col span="24" :m="{span:12}" :l="{span:'6'}">8</k-col>
             </k-row>
         </div>
     </div>

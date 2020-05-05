@@ -11,6 +11,16 @@
 </template>
 
 <script lang='js'>
+    let validator=(value)=>{
+        let keys=Object.keys(value)
+        let valid=true
+        keys.forEach(key=>{
+            if(!['span','offset'].includes(key)){
+                valid=false
+            }
+        })
+        return valid
+    }
     export default {
         name: 'KCol',
         props:{
@@ -20,8 +30,17 @@
            offset:{
                type:[String,Number]
            },
-            phone:{
-                type: Object
+            m:{
+              type:Object,
+                validator
+            },
+            l:{
+                type: Object,
+                // validator
+            },
+            xl:{
+                type: Object,
+                // validator
             }
         },
         data(){
@@ -31,12 +50,14 @@
         },
         computed:{
             colClass(){
-                const{span,offset,gutter,phone}=this
+                const{span,offset,gutter,m,l,xl}=this
                 return [
                     `col-${span}`,
                     offset&&`offset-${offset}`,
                     gutter&&`gutter-${gutter}`,
-                    phone&&`col-phone-${phone.span}`
+                    m?`col-m-${m.span}`:[],
+                    l?`col-l-${l.span}`:[],
+                    xl?`col-xl-${xl.span}`:[],
                 ]
             },
             colStyle(){
@@ -71,14 +92,50 @@
             margin-right:  ($n/24)*100%
         }
     }
-    @media(max-width: 576px){
+    //ipad 屏幕
+    @media(min-width: 576px){
         @for $n from 1 through 24 {
-            &.col-phone-#{$n} {
+            &.col-m-#{$n} {
                 width:  ($n/24)*100%;
 
             }
         }
-    }
+        @for $n from 1 through 24 {
+            &.offset-m-#{$n} {
+                margin-right:  ($n/24)*100%
 
+            }
+        }
+    }
+    //窄pc
+    @media(min-width: 769px){
+        @for $n from 1 through 24 {
+            &.col-l-#{$n} {
+                width:  ($n/24)*100%;
+
+            }
+        }
+        @for $n from 1 through 24 {
+            &.offset-l-#{$n} {
+                margin-right:  ($n/24)*100%
+
+            }
+        }
+    }
+   //更多
+    @media(min-width:1200px){
+        @for $n from 1 through 24 {
+            &.col-xl-#{$n} {
+                width:  ($n/24)*100%;
+
+            }
+        }
+        @for $n from 1 through 24 {
+            &.offset-xl-#{$n} {
+                margin-right:  ($n/24)*100%
+
+            }
+        }
+    }
 }
 </style>
