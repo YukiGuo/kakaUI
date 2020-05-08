@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import App from './app';
+import plugin from "./toast/plugin"
 import KButton from './button/KButton';
 import Icon from "./Icon";
 import KButtonGroup from "./button/KButtonGroup";
@@ -11,6 +12,7 @@ import KFooter from "./layout/KFooter"
 import KContent from "./layout/KContent"
 import KSider from "./layout/KSider"
 import KLayout from "./layout/KLayout"
+import KToast from "./toast/KToast"
 Vue.component('Icon', Icon);
 Vue.component('k-button-group', KButtonGroup);
 Vue.component('k-button', KButton);
@@ -23,6 +25,8 @@ Vue.component('k-footer',KFooter)
 Vue.component('k-content',KContent)
 Vue.component('k-sider',KSider)
 Vue.component('k-layout',KLayout)
+Vue.component('k-toast',KToast)
+Vue.use(plugin)
 Vue.config.productionTip = false
 new Vue({
     el:"#app",

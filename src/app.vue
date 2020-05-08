@@ -1,5 +1,9 @@
 <template>
     <div>
+        <h3>Toast</h3>
+        <div class="box">
+            <button @click="showToast">点我</button>
+        </div>
         <h3>按钮</h3>
         <div class="box">
             <k-button :loading="loading1" @click="loading1=!loading1">按钮1</k-button>
@@ -115,6 +119,17 @@
         methods:{
             a(e){
                 console.log(e)
+            },
+            showToast(){
+                this.$toast(`已提或或或或或或或或或`, {
+                    position:'bottom',
+                    closeButton: {
+                        text: '关闭',
+                        callback () {
+                            console.log('他说已经充值智商了')
+                        }
+                    },
+                })
             }
         }
     }
