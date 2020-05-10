@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/toast/KToast.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toast/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kakaui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kakaui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tab/KTab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tab/KTabBody.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tab/KTabHead.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tab/KTabItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tab/KTabPane.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -84,7 +86,7 @@
       <workItem from="1588655618996" duration="7039000" />
       <workItem from="1588686631093" duration="3723000" />
       <workItem from="1588852587253" duration="10100000" />
-      <workItem from="1588939403103" duration="4542000" />
+      <workItem from="1588939403103" duration="11042000" />
     </task>
     <task id="LOCAL-00001" summary="新建button组件文件夹">
       <created>1588472058166</created>
@@ -120,9 +122,9 @@
       <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state x="110" y="3" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1588485378440" />
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1588854328863">
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589119523841">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1588854328863" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1589119523841" />
   </component>
 </project>

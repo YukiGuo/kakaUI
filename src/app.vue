@@ -1,5 +1,22 @@
 <template>
     <div>
+        <h3>Tab</h3>
+        <k-tab :selectedTab.sync="selectedTab">
+            <k-tab-head  >
+                <template slot="action">
+                    <button>设置</button>
+                </template>
+                <k-tab-item name="sport"> 体育 </k-tab-item>
+                <k-tab-item name="finance" > 财经 </k-tab-item>
+                <k-tab-item name="food"> 美食</k-tab-item>
+            </k-tab-head>
+            <k-tab-body>
+                <k-tab-pane name="sport"> 这里是体育</k-tab-pane>
+                <k-tab-pane name="finance"> 这里是财经</k-tab-pane>
+                <k-tab-pane name="food"> 这里是美食</k-tab-pane>
+            </k-tab-body>
+        </k-tab>
+        <div class="box"></div>
         <h3>Toast</h3>
         <div class="box">
             <button @click="showToast">点我</button>
@@ -113,7 +130,8 @@
                 loading1: false,
                 loading2: false,
                 value: '',
-                message:'这是一个双向绑定'
+                message:'这是一个双向绑定',
+                selectedTab:'sport'
             }
         },
         methods:{

@@ -13,6 +13,11 @@ import KContent from "./layout/KContent"
 import KSider from "./layout/KSider"
 import KLayout from "./layout/KLayout"
 import KToast from "./toast/KToast"
+import KTab from "./tab/KTab"
+import KTabHead from "./tab/KTabHead"
+import KTabBody from "./tab/KTabBody"
+import KTabItem from "./tab/KTabItem"
+import KTabPane from "./tab/KTabPane"
 Vue.component('Icon', Icon);
 Vue.component('k-button-group', KButtonGroup);
 Vue.component('k-button', KButton);
@@ -26,6 +31,11 @@ Vue.component('k-content',KContent)
 Vue.component('k-sider',KSider)
 Vue.component('k-layout',KLayout)
 Vue.component('k-toast',KToast)
+Vue.component('k-tab',KTab)
+Vue.component('k-tab-head',KTabHead)
+Vue.component('k-tab-body',KTabBody)
+Vue.component('k-tab-item',KTabItem)
+Vue.component('k-tab-pane',KTabPane)
 Vue.use(plugin)
 Vue.config.productionTip = false
 new Vue({
