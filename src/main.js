@@ -18,6 +18,7 @@ import KTabHead from "./tab/KTabHead"
 import KTabBody from "./tab/KTabBody"
 import KTabItem from "./tab/KTabItem"
 import KTabPane from "./tab/KTabPane"
+import KPopover from "./popover/KPopover"
 Vue.component('Icon', Icon);
 Vue.component('k-button-group', KButtonGroup);
 Vue.component('k-button', KButton);
@@ -36,6 +37,7 @@ Vue.component('k-tab-head',KTabHead)
 Vue.component('k-tab-body',KTabBody)
 Vue.component('k-tab-item',KTabItem)
 Vue.component('k-tab-pane',KTabPane)
+Vue.component('k-popover',KPopover)
 Vue.use(plugin)
 Vue.config.productionTip = false
 new Vue({
