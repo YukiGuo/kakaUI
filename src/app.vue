@@ -1,5 +1,18 @@
 <template>
     <div style="padding:20px">
+        <h3>Collapse</h3>
+<div>
+        <k-collapse :selected-name.sync="selectedName">
+            <k-collapse-item title="标题1" name="1">
+            内容1</k-collapse-item>
+            <k-collapse-item title="标题2" name="2">
+            内容2</k-collapse-item>
+            <k-collapse-item title="标题3" name="3">
+                内容3
+            </k-collapse-item>
+            {{selectedName}}
+        </k-collapse>
+</div>
         <h3>popover</h3>
         <k-popover style="padding: 10px ; " position="bottom" >
             <template slot="content">
@@ -182,7 +195,8 @@
                 loading2: false,
                 value: '',
                 message: '这是一个双向绑定',
-                selectedTab: 'sport'
+                selectedTab: 'sport',
+                selectedName:['2']
             }
         },
         methods: {

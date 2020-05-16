@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/popover/KPopover.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collapse/KCollapse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collapse/KCollapseItem.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
@@ -87,7 +87,9 @@
       <workItem from="1589290606133" duration="362000" />
       <workItem from="1589291042603" duration="7251000" />
       <workItem from="1589372377621" duration="9495000" />
-      <workItem from="1589461557498" duration="3304000" />
+      <workItem from="1589461557498" duration="5771000" />
+      <workItem from="1589541845056" duration="817000" />
+      <workItem from="1589602651283" duration="8760000" />
     </task>
     <task id="LOCAL-00001" summary="新建button组件文件夹">
       <created>1588472058166</created>
@@ -123,9 +125,9 @@
       <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state x="110" y="3" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1588485378440" />
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589464174459">
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589621559619">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1589464174459" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1589621559619" />
   </component>
 </project>
