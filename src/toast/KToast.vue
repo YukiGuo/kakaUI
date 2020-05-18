@@ -84,7 +84,7 @@
 .toast{
     color: #fff;
     min-height: 32px;
-    background-color: rgb(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.6);
     position: absolute;
     border-radius: 4px;
     display: flex;

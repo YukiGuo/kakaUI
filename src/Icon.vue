@@ -5,6 +5,7 @@
 </template>
 
 <script lang='ts'>
+    import './svg'
     export default {
         name: 'Icon',
         props:{
@@ -14,7 +15,6 @@
 </script>
 
 <style lang='scss' scoped>
-
     .icon {
         width: 1em;
         height: 1em;

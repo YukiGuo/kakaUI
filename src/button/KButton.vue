@@ -3,21 +3,23 @@
             :class="{[`icon-${iconPosition}`] : true}"
             @click="$emit('click')"
     >
-        <div  class="icon">
+        <span  class="icon">
             <Icon v-if ="iconName && !loading" :icon-name="iconName"/>
-        </div>
-        <div v-if="loading" class="icon">
+        </span>
+        <span v-if="loading" class="icon">
             <Icon icon-name="loading" class="loading icon" />
-        </div>
-        <div class="content" >
+        </span>
+        <span class="content" >
             <slot class="content"/>
-        </div>
+        </span>
 
     </button>
 </template>
 <script lang='js'>
+    import Icon from "../Icon"
     export default {
-        name: 'Button',
+        name: 'KButton',
+        components:{'Icon':Icon},
         props:{
             iconName:{},
             loading:{
@@ -36,21 +38,21 @@
 </script>
 <style lang="scss">
     .k-button{
-        font-size: var(--font-size);
-        height:var(--button-height);
+        font-size: 14px;
+        height:36px;
         padding:0 1em;
-        border-radius: var(--border-radius);
-        border: 1px solid var(--border-color);
-        background: var(--button-bg);
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        background: white;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         vertical-align: middle;
         &:hover{
-            border-color: var(--border-color-hover);
+            border-color: #999;
         }
         &:active{
-            background: var( --button-active-bg);
+            background: #eee;
         }
         &:focus{
             outline:none;

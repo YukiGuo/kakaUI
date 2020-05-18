@@ -231,9 +231,9 @@
     }
 
     .triggerWrapper {
-        border: solid 1px #000;
+        border: solid 1px #ccc;
         display: inline-block;
-        padding: 4px 8px;
+        padding: 2px 8px;
         border-radius: 2px;
     }
 </style>

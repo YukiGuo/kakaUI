@@ -23,7 +23,7 @@ import KCollapse from "./collapse/KCollapse"
 import KCollapseItem from "./collapse/KCollapseItem"
 Vue.component('Icon', Icon);
 Vue.component('k-button-group', KButtonGroup);
-Vue.component('k-button', KButton);
+Vue.component('k-button',KButton)
 Vue.component('k-input', KInput);
 Vue.component('App', App);
 Vue.component('k-row',KRow)

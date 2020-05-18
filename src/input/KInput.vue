@@ -1,5 +1,6 @@
 <template>
 <div class="wrapper">
+    <label>
     <input type="text"
            :value="value" class="k-input"
            @change="$emit('change',$event)"
@@ -8,13 +9,13 @@
            @input="$emit('input',$event.target.value)"
            :disabled="disabled"
            :readonly="readonly"
-    />
+    /></label>
     <template v-if="error">
-        <Icon icon-name="error" class="icon-error"></Icon>
+        <Icon icon-name="error" class="icon-error"> </Icon>
         <span class="error-massage">{{error}}</span>
     </template>
     <template v-if="success">
-        <Icon icon-name="success" class="icon-success"></Icon>
+        <Icon icon-name="success" class="icon-success"> </Icon>
     </template>
 </div>
 </template>
@@ -60,8 +61,8 @@
 
                 &:focus {
                         outline: none;
-                        box-shadow: inset 1px 1px 1px rgb(0, 0, 0, 0.2),
-                        inset -1px -1px 1px rgb(0, 0, 0, 0.2);
+                        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2),
+                        inset -1px -1px 1px rgba(0, 0, 0, 0.2);
                 }
         }
     .icon-error{
