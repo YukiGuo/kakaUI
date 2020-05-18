@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collapse/KCollapse.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collapse/KCollapseItem.vue" afterDir="false" />
+    <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="新建svg.js文件，css微调">
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/button-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/popover-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/tab-demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/button.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/popover.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/tab.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/get-start/MacOs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/get-start/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/get-start/windows.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/install/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Icon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button/KButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button/KButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/KInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/KInput.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popover/KPopover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover/KPopover.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toast/KToast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast/KToast.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +53,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -46,10 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Guo\kakaui\docs\.vuepress\components" />
+      <recent name="D:\Guo\kakaui\docs" />
       <recent name="D:\Guo\kakaui\src" />
       <recent name="D:\Guo\kakaui\src\" />
       <recent name="D:\Guo\kakaui\src\button" />
-      <recent name="D:\Guo\kakaui" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Guo\kakaui" />
@@ -89,7 +110,8 @@
       <workItem from="1589372377621" duration="9495000" />
       <workItem from="1589461557498" duration="5771000" />
       <workItem from="1589541845056" duration="817000" />
-      <workItem from="1589602651283" duration="8760000" />
+      <workItem from="1589602651283" duration="14365000" />
+      <workItem from="1589682223202" duration="16763000" />
     </task>
     <task id="LOCAL-00001" summary="新建button组件文件夹">
       <created>1588472058166</created>
@@ -106,17 +128,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建button组件文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建button组件文件夹" />
+    <MESSAGE value="新建svg.js文件，css微调" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建svg.js文件，css微调" />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588340731781">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1217.720@0.0.1217.720" timestamp="1588340731781" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1588472046552">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1589813253757">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1217.720@0.0.1217.720" timestamp="1588472046552" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1217.720@0.0.1217.720" timestamp="1589813253757" />
     <state x="676" y="186" key="FileChooserDialogImpl" timestamp="1588480291438">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
@@ -125,9 +148,21 @@
       <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state x="110" y="3" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1588485378440" />
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589621559619">
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589811535046">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1589621559619" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1589811535046" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main.js</url>
+          <line>25</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

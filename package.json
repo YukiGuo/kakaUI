@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev-test": "parcel watch test/* --no-cache & karma start",
-    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -23,8 +25,10 @@
   "homepage": "https://github.com/YukiGuo/kakaUI#readme",
   "dependencies": {
     "chai-spies": "^1.0.0",
+    "node-sass": "^4.14.1",
     "vue": "^2.6.11",
-    "vue-hot-reload-api": "^2.3.4"
+    "vue-hot-reload-api": "^2.3.4",
+    "vuepress": "^1.5.0"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.1.2",
@@ -38,6 +42,7 @@
     "mocha": "^7.1.2",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
     "sinon": "^9.0.2",
     "sinon-chai": "^3.5.0",
     "spies": "^0.1.6",
