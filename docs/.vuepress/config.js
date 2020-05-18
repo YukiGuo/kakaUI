@@ -1,4 +1,5 @@
 module.exports = {
+    base:'/kakaUI/',
     title: 'Kaka UI',
     description: '一个好用的UI',
     themeConfig: {
