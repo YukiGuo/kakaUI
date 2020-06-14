@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="wrapper" :class="{[direction]:true}">
         <slot/>
     </div>
 </template>
@@ -36,11 +36,29 @@
             }
         },
         mounted(){
-            this.eventBus.$emit('update:selected',this.selectedTab)
+            this.eventBus.$emit('update:selected',this.selectedTab);
+            this.eventBus.$emit('update:direction',this.direction);
         }
     };
 </script>
 
 <style lang='scss' scoped>
+.wrapper{
+    display: flex;
 
+    &.horizontal{
+        flex-direction: column;
+        >.k-tab-head{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    &.vertical{
+        flex-direction: row;
+        >.k-tab-head{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
 </style>

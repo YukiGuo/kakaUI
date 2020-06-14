@@ -1,7 +1,9 @@
 <template>
+
     <div class="k-tab-pane" @click="xxx" :class='className' v-if="active">
         <slot/>
     </div>
+
 </template>
 
 <script lang='ts'>
@@ -43,7 +45,7 @@
    .k-tab-pane{
        background: white;
        &.active{
-           background: red;
+
        }
    }
 </style>

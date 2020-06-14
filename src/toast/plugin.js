@@ -5,11 +5,11 @@ let currentToast;
 export default {
     install(Vue,options){
         Vue.prototype.$toast=function (message,toastOptions) {
-            console.log(toastOptions)
+            console.log(toastOptions);
             if(currentToast){
                 currentToast.close()
             }
-            currentToast=  createToast({Vue,message,toastOptions,onCLose:()=>{
+            currentToast=  createToast({Vue,message, propsData: toastOptions,onCLose:()=>{
                     currentToast=null
             }
             })

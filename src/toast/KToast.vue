@@ -4,8 +4,8 @@
             <slot v-if="!enableHtml"> </slot>
             <div v-else v-html="$slots.default[0]"></div>
         </div>
-            <div class="line" ref="line"></div>
-            <span v-if="!autoClose" @click="onClickClose">{{closeButton.text}}</span>
+         <div v-if="!autoClose" class="line" ref="line"></div>
+          <span v-if="!autoClose" @click="onClickClose">{{closeButton.text}}</span>
     </div>
 </template>
 
@@ -38,20 +38,17 @@
                 type:String,
                 default:'top',
                 validator(value) {
-                   if( ['top', 'bottom', 'left', 'right', 'center'].indexOf(value) >= 0){
-                       return true
-                   }
-                   return false
+                   return ['top', 'bottom', 'left', 'right', 'center'].indexOf(value) >= 0
                 }
             }
         },
         computed:{
             toastClass(){
-                console.log(this.position);
                 return {[`position-${this.position}`] : true}
             }
         },
         mounted() {
+        console.log(this.autoClose);
             if(this.autoClose){
                 setTimeout(()=>{
                     this.close()
@@ -67,12 +64,9 @@
                 this.$emit('close');
                 this.$destroy()
             },
-            test(){
-                console.log('测试一下');
-            },
             onClickClose(){
                     this.close();
-                    if(this.closeButton.callback && typeof this.closeButton.callback ==='fuction'){
+                    if(this.closeButton.callback && typeof this.closeButton.callback ==='function'){
                         this.closeButton.callback();
                     }
              }
@@ -82,14 +76,15 @@
 
 <style lang='scss' scoped>
 .toast{
+z-index: 30 !important;
+    display:flex;
     color: #fff;
     min-height: 32px;
     background-color: rgba(0,0,0,0.6);
-    position: absolute;
+    position: fixed;
     border-radius: 4px;
-    display: flex;
-    align-items: center;
     padding: 0 10px;
+   align-items: center;
     &.position-top{
         top: 0;
         left: 50%;

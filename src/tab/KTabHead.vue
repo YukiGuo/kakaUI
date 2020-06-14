@@ -17,10 +17,6 @@
 
 <style lang='scss' scoped>
     .k-tab-head{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        border: #EE2C2C 1px solid;
         min-height: 40px;
         >.action-wrapper{
             margin-left: auto;

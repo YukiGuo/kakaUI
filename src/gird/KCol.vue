@@ -89,7 +89,6 @@
     justify-content:center;
     $base-color: #036;
     >.col-item{
-        background: cadetblue;
         height: 40px;
        border: 0.5px solid darkslategrey;
 
