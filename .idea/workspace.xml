@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="官网部署">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +42,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Guo\kakaui" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Guo\kakaui\docs\.vuepress\components" />
       <recent name="D:\Guo\kakaui\docs" />
       <recent name="D:\Guo\kakaui\src" />
       <recent name="D:\Guo\kakaui\src\" />
       <recent name="D:\Guo\kakaui\src\button" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Guo\kakaui" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -97,7 +94,7 @@
       <workItem from="1590225755413" duration="3847000" />
       <workItem from="1592024974835" duration="30350000" />
       <workItem from="1594480795000" duration="827000" />
-      <workItem from="1595335719928" duration="2027000" />
+      <workItem from="1595335719928" duration="3531000" />
     </task>
     <task id="LOCAL-00001" summary="新建button组件文件夹">
       <created>1588472058166</created>
