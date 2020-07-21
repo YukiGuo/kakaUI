@@ -17,6 +17,5 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:YukiGuo/kakaUI.git master:gh-pages
-
+ git push -f git@gitee.com:yukiguo/kakaUI.git master:gitee-pages
 cd -

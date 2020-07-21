@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="新建svg.js文件，css微调">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+    <list default="true" id="cd4f6d01-c2ba-4cab-a4eb-3513a7795cb3" name="Default Changelist" comment="官网部署">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +40,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-demo1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../money" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -90,7 +91,13 @@
       <workItem from="1589461557498" duration="5771000" />
       <workItem from="1589541845056" duration="817000" />
       <workItem from="1589602651283" duration="14365000" />
-      <workItem from="1589682223202" duration="17676000" />
+      <workItem from="1589682223202" duration="18436000" />
+      <workItem from="1589816871293" duration="398000" />
+      <workItem from="1589978677791" duration="9051000" />
+      <workItem from="1590225755413" duration="3847000" />
+      <workItem from="1592024974835" duration="30350000" />
+      <workItem from="1594480795000" duration="827000" />
+      <workItem from="1595335719928" duration="2027000" />
     </task>
     <task id="LOCAL-00001" summary="新建button组件文件夹">
       <created>1588472058166</created>
@@ -106,7 +113,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589813388925</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="细节调整">
+      <created>1592118504299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592118504299</updated>
+    </task>
+    <task id="LOCAL-00004" summary="官网部署">
+      <created>1592118606438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592118606438</updated>
+    </task>
+    <task id="LOCAL-00005" summary="官网部署">
+      <created>1592118892501</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592118892501</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,30 +142,40 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建button组件文件夹" />
+    <MESSAGE value="细节调整" />
     <MESSAGE value="新建svg.js文件，css微调" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建svg.js文件，css微调" />
+    <MESSAGE value="官网部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="官网部署" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588340731781">
+    <state x="403" y="0" key="#Notifications" timestamp="1592025669120">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1217.720@0.0.1217.720" timestamp="1588340731781" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1589813375584">
+    <state x="403" y="0" key="#Notifications/0.0.1217.720@0.0.1217.720" timestamp="1592025669120" />
+    <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589980488148">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1217.720@0.0.1217.720" timestamp="1589813375584" />
-    <state x="676" y="186" key="FileChooserDialogImpl" timestamp="1588480291438">
+    <state x="349" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1217.720@0.0.1217.720" timestamp="1589980488148" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592118880933">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="676" y="186" key="FileChooserDialogImpl/0.0.1217.720@0.0.1217.720" timestamp="1588480291438" />
-    <state x="110" y="3" key="SettingsEditor" timestamp="1588485378440">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1217.720@0.0.1217.720" timestamp="1592118880933" />
+    <state x="219" y="141" key="EditFileWatcherDialog" timestamp="1589986137407">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="110" y="3" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1588485378440" />
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589811535046">
+    <state x="219" y="141" key="EditFileWatcherDialog/0.0.1217.720@0.0.1217.720" timestamp="1589986137407" />
+    <state x="676" y="186" key="FileChooserDialogImpl" timestamp="1595337045245">
       <screen x="0" y="0" width="1217" height="720" />
     </state>
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1589811535046" />
+    <state x="676" y="186" key="FileChooserDialogImpl/0.0.1217.720@0.0.1217.720" timestamp="1595337045245" />
+    <state x="110" y="3" key="SettingsEditor" timestamp="1590229579069">
+      <screen x="0" y="0" width="1217" height="720" />
+    </state>
+    <state x="110" y="3" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1590229579069" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1592116177025">
+      <screen x="0" y="0" width="1217" height="720" />
+    </state>
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1217.720@0.0.1217.720" timestamp="1592116177025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -145,7 +183,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main.js</url>
           <line>25</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
